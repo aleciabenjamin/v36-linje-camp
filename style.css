@@ -6,5 +6,29 @@
 
 .avgång {
 	background-color: rgb(246, 240, 232);
+	border: 2px solid rgb(244, 227, 201);
+	border-radius: 15px;
 	padding: 2rem;
+}
+.kort-rad {
+	display: flex;
+	gap: 1rem;
+	flex-wrap: wrap;
+}
+.kort {
+	flex: 1 1 200px;
+	padding: 2rem;
+	border: 2px solid rgb(244, 227, 201);
+	border-radius: 15px;
+	background-color: rgb(246, 240, 232);
+}
+@media (max-width: 600px) {
+.tabla {
+	grid-template-columns: 1fr;
+}
+}
+nav {
+	display: flex;
+	gap: 5rem;
+	flex-wrap: wrap;
 }
